@@ -73,7 +73,6 @@ Before we dive in, let's hear a bit about you!
 	* Data Science opens up doors to a variety of opportunities
 	* Data Science has been dubbed the “Sexiest job of the 21st century”!
 
-> Note: Tailor any additional objectives to student interests. In general, reference student backgrounds and goals throughout the lesson. 
 ***
 
 <a name="intro1"></a>
