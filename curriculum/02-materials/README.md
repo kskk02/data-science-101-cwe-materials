@@ -16,14 +16,6 @@
 - Bring a laptop with [Anaconda](https://www.continuum.io/downloads) installed. Scroll to your operating system version and click on the install button for ***Anaconda with Python 2.7***. We'll be using Python version 2.7 in this workshop.
 - We will be using Jupyter Notebooks as our main IDE for the workshop. If you've downloaded Anaconda (with Win, Mac or Linux), you are ready to go! 
 
-### INSTRUCTOR PREP
-*Before this lesson, instructors will need to:*
-
-- Review & modify lesson plan & slide deck
-- Write learning objectives & relevant information on board
-- Review student roster
-- Prepare handout to distribute to students
-
 ### WORKSHOP AGENDA
 | TIMING  | TYPE  | TOPIC  |
 |:-:|---|---|
@@ -32,11 +24,10 @@
 | 5 min  | [Independent Practice](#demo0)   | Data Science Skill Assessment |
 | 20 min  | [Demo](#demo1)  | Visualizing the Data Science Workflow  |
 | 20 min  | [Introduction](#intro2)  | Exploring the Data Science Toolkit |
-| 20 min  | [Guided Practice](#guided2)  | Explore Some Data! |
-| 10 min  | [Independent Practice](#ind-1)  | Practice Exploring Data |
-| 5 min  | BREAK  |   |
 | 10 min  | [Introduction](#intro2)   | What's an Algorithm, Anyway? |
 | 15 min  | [Demo](#demo2)  | Algorithms in Action  |
+| 20 min  | [Guided Practice](#guided2)  | Explore Some Data! |
+| 10 min  | [Independent Practice](#ind-1)  | Practice Exploring Data |
 | 10 min  | [Introduction](#intro3)  | Algorithms & Machine Learning  |
 | 15 min  | [Guided Practice](#guided-practice2)  | Thinking Logically  |
 | 20 min  | [Independent Practice](#ind-practice2)  | Data Science Case Study |
@@ -58,16 +49,10 @@ Goals:
 #### Instructor Bio
 
 Welcome to Data Science 101! Here's a bit about me:
-> Provide your name and brief bio, including things like: your background in data science, any experience you've had with GA, and one "fun fact" about yourself.
 
 #### Introduce Yourselves
 
 Before we dive in, let's hear a bit about you!
-
-> Have students introduce themselves: name, what brings them to GA (ask for their current career & any specific goals), & one "fun fact".
-
-> **Example Exercise**: *Have students write these on a Google doc or in a Google poll. Instructor can briefly **demonstrate** data science by categorizing data, merging into CSV file,  pulling out features, etc.*
-
 
 #### Our Expectations
 
@@ -75,13 +60,7 @@ Before we dive in, let's hear a bit about you!
 - You're curious and excited about data science!
 - You've already installed [Anaconda with Python 2.7](https://www.continuum.io/downloads).
 
-> Instructor Note: Check that all laptops have a *Python 2.7* distribution (materials for this workshop have not been tested against Python 3.x).
-
-
 #### Our Objectives
-
-> Note: Write workshop objectives on board before class
-
 
 * What we’ll cover:
 	* Why Data Science & what it can do for me?
@@ -129,8 +108,6 @@ Let's talk through the following questions as a group:
 - Have you heard of or worked with tools such as Excel, R, or Python? 
 - What are your interests? What data would you want to work with?
 
-> Instructor Note: The discussion for this part of the lesson can be used to prompt the students to self-assess areas where they are strong or weak. This will help them start to shape their "Learning Plan".
-
 #### What Can Data Science Do For Me?
 
 * Ask good questions! First and foremost, a data scientist asks a lot of questions. Such as:
@@ -153,35 +130,12 @@ Here are some common tasks performed by data scientists:
  
 ***
 
-<a name="demo0"></a>
-## Independent Practice: Assess Your Data Science Skills
-
-> Instructor note: For the following task, create a quick google doc and share with the class. Populate one column with the skills above. Ask students to use an "incognito" window in Chrome to anonymously self-report, creating a new column for their individual skill-assessment. 
-
-Let's do some quick and dirty data science. Here's a table with some of the basic data science skills we just reviewed.  
-
-Using a Chrome "incognito" browser window, create a column and give yourself an honest ranking for each skill. We will use this data to demonstrate some simple statistics as part of the data science workflow.
-
-Example:
-
-| Skill | Student 1 | Student 2 | ... | Average| 
-|:-:|---|---|---|---|
-| Programming | score 1 | score 2 | ... | Average| 
-| Math | score 1 | score 2 | ... | Average| 
-| Statistics | score 1 | score 2 | ... | Average| 
-
-> Note: After students complete their entries, perform some quick summary statistics. Gauge the class to see how well they understand basic descriptive statistics. If you have time, try showing off a bit - pull the data into pandas, do some light regression, etc.
-
-***
-
 <a name="demo1"></a>
 ## Demo: Visualizing the Data Science Workflow (20 mins)
 
 Next, we're going to walk through what we call the "Data Science Workflow". 
 
 #### Work-what? 
-> Instructor Note: Make sure to emphasize that the workflow is an iterative process and not necessarily a linear one.
-
 The data science workflow is a way of describing the approach that *most* data scientists take when working on a project. It's not always cut and dry, but in general, the process looks something like this:
 
 ![](./code/data-science-workflow-example.jpg)
@@ -262,8 +216,6 @@ ChecK: How would we go about solving this question?
 	*  Deploy stable production-ready code
 	*  Retrain and validate models over time
 
-> If students are stumped or get stuck, break them into smaller groups and challenge them to define the steps and come up with some guiding questions for each step. Then discuss the process as a class.
-
 Here's a high level example of how we might walk through such a challenge:
 
 - **Identify Problem**: What is our problem? What is our goal? Do we understand these correctly?
@@ -273,7 +225,6 @@ Here's a high level example of how we might walk through such a challenge:
 - **Model**: Sure, you've built a nice model. But does it work? How would you know?
 - **Present**: Think back to the original question. What do you think your boss wants to see?
 
-> Instructor Note: Here are some suggested talking points you could review. Again, focus the discussion on high level strategy until students are comfortable. Don't spend a lot of time on specific techniques unless your class is comfortable with math/stats:
 * Collect data around user retention, user actions within the product, potentially find data outside of company
 * Extract aggregated values from raw data
   * How many times did a user share through social media? Within what time frame?
@@ -334,37 +285,14 @@ Check: So what are some common tools used by data scientists? Why are these usef
 
 In this guided practice, we'll explore a sample dataset to carry out some descriptive analytics using the `pandas` library.
 
-> Instructor Note: You should show the following commands and concepts using a **Jupyter notebook**. Open the [part 1 guided practice code and walk students through the notebook](./code/DataScience101_Part1_GuidedPractice.ipynb).
-
 #### Instructions for students
 We recommend using a Jupyter notebook for this guided practice. This makes it easier for all as it is homogenous for various environments (mac, win, linux).
 
 #### Accessing Files
 
-**OPTION 1** - Accessing Files with **Dropbox**
-> Instructor Note: If you use Dropbox to get the material to your students follow these steps:
-
-The link provided has a Zip file with the materials for the class. 
-
-1. Unzip the file downloaded in a known location in your file system
-2. Locate the file called [DataScience101_Part1_GuidedPractice.ipynb](./code/DataScience101_Part1_GuidedPractice.ipynb) 
-3. To start Jupyter: Open a terminal 
-
-	- **Mac**: Using spotlight search for "Terminal" 
-	- **Windows**: Click the "Start" button and type "cmd"
-	- In the terminal type: `jupyter notebook`
-	
-4. Navigate to the folder where you have saved the file in step 1
-5. Open the file from the Jupyter interface
-6. Voilà, you are ready to go!
-
-
-**OPTION 2** - Accessing Files via **GITHUB**
-> Instructor Note: If you use GitHub to get the material to your students, follow these steps:
-
 To get the starter code, you'll need to download these materials.
 
-1. First, visit this page: [https://github.com/generalassembly-studio/data-science-101-cwe-materials](https://github.com/generalassembly-studio/data-science-101-cwe-materials)
+1. First, visit this page: [https://github.com/kskk02/data-science-101-cwe-materials](https://github.com/kskk02/data-science-101-cwe-materials)
 2. Then, click on the "Clone or Download" button, and click "Download ZIP"
 3. Unzip the file downloaded in a known location in your file system
 4. Locate the file called [DataScience101_Part1_GuidedPractice.ipynb](./code/DataScience101_Part1_GuidedPractice.ipynb) 
@@ -384,8 +312,6 @@ To get the starter code, you'll need to download these materials.
 
 <a name="ind-1"></a>
 ## Independent Practice: Practice Exploring Data (10 mins)
-
-> Instructor Note: Using a second dataset, ask the students to carry out a similar analysis. This should be a pair programming activity, depending on the size of the class and on baseline abilities. Make sure to discuss results with the entire class afterward.
 
 ## Now You Try!
 
@@ -420,8 +346,6 @@ Follow the same procedure from before to access materials, this time opening the
 ## Discussion
 
 What comes to mind when you hear the word **algorithm?**
-
-> Instructor Note: Write down descriptions on the whiteboard. Goal is to amass a list of different descriptions from students, then use that to lead to the information below.
 
 #### Definition:
 
@@ -464,8 +388,6 @@ Data In -> Change! -> New Data Out
 ```
 
 #### Discussion
-
-> Instructor Note: Divide the class in three groups and ask students to list the steps they follow to achieve an every-day task. Students should break down these steps into the smallest, discrete, sequential items.
 
 Let's put this into practice! Get into groups and create your own algorithm using *pseudocode*. In other words, your group will write down a series of steps using "fake code" that simply outlines the logic for an everyday task. Choose your own task and create your own algorithm, remembering to include all the criteria above!
 
@@ -707,8 +629,7 @@ Ok, let's review! In this workshop, we've covered the following topics:
 <a name="takeaway"></a>
 ## Takeaways: Learning Plan + Q&A (10 mins)
 
-> Instructor Note: Encourage the students to continue learning by producing a plan based on the skills discussed in [Part 1 - Introduction](#intro1).
-> 
+
 > Refer back to the student poll from the [Introduction](#intro1) and reference their specific goals. 
 
 Now that you've got a great start to your learning journey, take the time to outline some next steps. Your learning plan should outline at least 3 possible resources and a relevant goal for each. 
