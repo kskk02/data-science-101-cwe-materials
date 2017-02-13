@@ -40,8 +40,6 @@
 <a name="opening"></a>
 ## Opening (10 mins)
 
-> Note: Let people know where restrooms and kitchen are located, as needed.
-
 Goals:
 - Welcome students and discover their interests
 - Review current lesson objectives
@@ -181,8 +179,6 @@ Let's take a business problem and think about how we would apply our new workflo
 
 ChecK: How would we go about solving this question?
 
-> Note: Don't answer for them! Let them think about it. Table any incorrect responses. Once they generate something from the workflow, write it down on the board as part of the sequence.
-
 > * Identify the problem
 	* Identify business/product objectives
 	* Identify and hypothesize goals and criteria for success
@@ -246,8 +242,6 @@ In order to answer that question, let's review some common tools used by Data Sc
 While data science is a relatively new field, math and statistics have been around for a while. In fact, most early data scientists were trained as statisticians. But the world of programming opened up new ways to work with data, using code to perform repetitive tasks quickly and efficiently. That's why most modern data scientists combine both math and programming skills to solve problems.
 
 There are lots of programming languages out there, but we're going to be focusing on **Python**.
-
-> Note: Feel free to add in R or other elements here, but the focus should be on how they compare or relate to Python, and why Python is so widely used.
 
 Python is a great programming language for working with data. Here are just a few reasons why it's so popular today:
 
@@ -341,7 +335,6 @@ Follow the same procedure from before to access materials, this time opening the
 <a name="intro2"></a>
 ## Introduction: What's an Algorithm, Anyway? (10 mins)
 
-> Instructor Note: Before re-starting the class, check for any questions the students may have about the first part of the workshop.
 
 ## Discussion
 
@@ -399,8 +392,6 @@ Example Group Topics:
 
 
 Remember to break down your steps into the smallest discrete, logically sequential items you can think of!
-
-> Note: Afterward, ask groups to share their "algorithms" with the rest of the class. Ask if other students can follow the directions precisely - what happens? Were all steps described successfully?
 
 
 ***
@@ -535,7 +526,6 @@ Some popular unsupervised learning algorithms include:
 
 All right. So far you've learned about algorithms, pseudocode, and machine learning at a high level. Now let's practice putting some of these elements together. 
 
-> Instructor Note: Run through the example and ask students to draw a decision tree based on the "business rules" below, in pseudocode.
 
 Let's review the following example and apply a type of *supervised* learning model called a "decision tree" to generalize and make predictions:
 
@@ -600,13 +590,7 @@ Work in pairs and review the [scikit learn documentation](http://scikit-learn.or
 
 For this exercise, you'll need to download the [DataScience101_Part2_DecisionTree.ipynb](./code/DataScience101_Part2_DecisionTree.ipynb) and the [Iris dataset](./code/data/iris.csv). Refer to the instructions from earlier to access these materials.
 
-
-> Note: If students are having trouble getting started, make sure to emphasize the importance of learning to look up documentation when they encounter something new. After all, this is a key skill for any good data scientist! Ask them to work at it for at least 5 minutes.
-
-> If they are still having trouble, stop and demo the code, walking through one example of the decision tree node, in order to give them a reference to start from.
-
 Afterward, discuss your observations with your group. Can you explain what this code is doing? Can you describe how this algorithm works? 
-> Note: Make sure to leave time for plenty of questions!
 
 ***
 
@@ -716,8 +700,6 @@ At GA, we offer part time and immersive courses in data science! Some of the top
 To qualify for our courses, you'll want to dig into some basic summary statistics and introdcutory python programming fundamentals beforehand!
 
 #### Q & A
-
-> Instructor Note: Encourage the students to share any final thoughts or questions.
 
 ***
 
